@@ -16,7 +16,7 @@ class Customer:
             return 1500
         elif self.age >= 65:
             return 1200
-        else:
+        elif self.age >= 75:
             return 500
 
     def info_csv(self):
